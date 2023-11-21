@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(white, green);
+}
+
+.navbar {
+    width: 100%;
+    height: 75px;
+    background-color: green;
+}
+
+.logo {
+    width: 75%;
+    float: left;
+    height: 70px;
+    font-size: 65px;
+    font-family: fantasy;
+    color: white;
+}
+
+.logo p {
+    margin-left: 50px;
+}
+
+.menu {
+    width: 25%;
+    float: left;
+    position: center;
+    height: 70px;
+   
+}
+
+
+.menu ul {
+    float: left;
+    display: flex;
+    align-items: center;
+}
+
+.menu ul li {
+    list-style: none;
+    margin-left: 40px;
+    margin-top: 25px;
+    font-size: 18px;
+    color: white;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu :hover{
+    scale: 1.02;
+    color: rgb(135, 228, 135);
+}
+
+h3 {
+    color: green;
+    font-size: 60px;
+    position:relative;
+    margin-top:120px ;
+    margin-left: 38%;
+    margin-bottom: 10%;
+    font-family: sans-serif;
+    -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.5));
+}
+
+.search input {
+    background: transparent;
+    width: 90%;
+    height: 40px;
+    margin-left: 2%;
+}
+.search button{
+    width: 5%;
+    height: 40px;
+    margin-left: 2%;
+    color: darkgreen;
+}
+
+
+.footer {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    position: relative;
+    bottom: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: grey;
+    box-shadow: #fff 1px 1px 3px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: green;
+    margin-left: 2px;
+}
+
+.footer a:hover {
+    color: purple;
+}
+
+#content-h1{
+    color: darkgreen;
+    font-weight: 400;
+    font-size: 25px;
+    margin-left: 2%;
+}
+.content{
+    width: 97%;
+    min-height: 800px;
+    margin-top: 140px;
+    margin-left: 2%;
+    background-image: linear-gradient(rgba(0, 100, 0, 0.412),rgba(255, 255, 255, 0.473));
+    box-shadow: #5cee86 1px 1px 7px;
+    border-radius: 25px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content a{
+    text-decoration: none;
+}
+
+.content p{
+    display: none;
+}
+.box {
+    width: 302px;
+    height: 280px;
+    margin: 20px;
+    background: linear-gradient(to right, rgba(1, 134, 23, 0.1), rgba(58, 70, 64, 0.1));
+    box-shadow: #303030 1px 1px 7px;
+}
+
+.box:hover{
+    box-shadow:  rgb(1, 134, 23) 1px 1px 7px;
+}
+
+.item-info{
+    text-align: center;
+    border-radius: 25px;
+    transition: all 0.5s;
+    color: green;
+}
+
+.item-info img{
+    margin-top: 5px;
+    width: 97%;
+    height: 190px;
+    border-radius: 25px;
+}
+.item-info:hover{
+    scale: 1.02;
+}
+
